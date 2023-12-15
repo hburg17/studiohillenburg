@@ -15,7 +15,7 @@ This is my website.
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="..." alt="First slide">
+      <img class="d-block w-100" src="https://images.pexels.com/photos/38136/pexels-photo-38136.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="First slide">
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src="..." alt="Second slide">
