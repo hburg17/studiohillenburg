@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Studio Hillenburg
 email: ""
-description: >- # this means to ignore newlines until "baseurl:"
+#description: >- # this means to ignore newlines until "baseurl:"
   A Bootstrap 4 start up project for Jekyll and Github Pages
 #baseurl: "/home" # the subpath of your site, e.g. /blog
 url: "https://hburg17.github.io/studiohillenburg" # the base hostname & protocol for your site, e.g. http://example.com
