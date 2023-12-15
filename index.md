@@ -1,133 +1,332 @@
----
-layout: page
-title: Studio Hillenburg
----
-
-This is my website.
-
-### Picture Carousel
-
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="https://images.pexels.com/photos/38136/pexels-photo-38136.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="First slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="https://images.pexels.com/photos/9754/mountains-clouds-forest-fog.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Second slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="https://images.pexels.com/photos/113338/pexels-photo-113338.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Third slide">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-
-### Create a repository from this template
-
-* [Go to this repository page on Github](https://github.com/nicolas-van/bootstrap-4-github-pages).
-* Click the `Star` button on the top right. (OK, this step is facultative, but that would make you a nice person)
-* Click the `Use this template` button on the top right of the page.
-
-### Choose a name for your repository
-
-Here we have two possibilities:
-
-* **You want a user or organization website**
-
-  In this case your website's URL will be `http://<your username>.github.io` where `<your username>` is your Github user name.
-
-  Choose the repository name `<your username>.github.io`.
-
-* **You want a project website**
-
-  In this case your website's URL will be `http://<your username>.github.io/<whatever you want>` where `<whatever you want>` can be any valid name for a Github repository.
-
-  Choose the repository name `<whatever you want>`.
-
-### Activate Github Pages on your repository
-
-Go in the `Settings` page of your repository, in the `Github Pages`, under the `Source` parameter, choose `master branch` then `Save`.
-
-### That's it
-
-Your Github Pages website with customizable Bootstrap 4 is now up and running, you can access it using the URL displayed by Github in the `Github Pages` settings.
-
-## Customization Guide
-
-### Modify the configuration
-
-You should at least edit the `_config.yml` file to edit your website's metadata, like the title, description and repository URL.
-
-### Change your theme
-
-This website uses the [Minty](https://bootswatch.com/minty/) Bootstrap theme by default. And you don't want to use the same theme everyone else uses do you?
-
-You can of course modify anything in the `_includes`, `_layouts` and `_sass` folders to customize both the HTML or CSS of your website, possibly referring to the [Bootstrap documentation](https://getbootstrap.com/) or the [Jekyll documentation](https://jekyllrb.com/) when needed. This is a normal part of web development and it is outside the scope of this guide.
-
-But if you don't know where to start I can recommend you to import a theme from [Bootswatch](https://bootswatch.com/).
-
-* Go on [Bootswatch](https://bootswatch.com/) and choose a theme that you like.
-* Using the top bar, download its `_variables.scss` and `_bootswatch.scss` files.
-* Copy the content of `_variables.scss` in `_sass/_variables.scss`.
-* Copy the content of `_bootswatch.scss` in `_sass/_bootstrap_customization.scss`.
-
-That's it, you now have a totally different appearance for you website.
-
-### Modify the content
-
-You probably don't want the present guide to be the front page of your website, so you should edit the `index.md` file. You probably also want to edit or delete the `CONTRIBUTING.md`, `README.md` and `LICENSE.md` files.
-
-Aside from that you can of course create new pages and posts like with any Jekyll website by refering to the [Jekyll documentation](https://jekyllrb.com/).
-
-### Run Jekyll on your computer to speed up testing
-
-Editing your website's content or theme directly on Github is completely possible but, due to the time Github Pages takes to update your website, it will probably be much more effective to work using a local Jekyll installation.
-
-To do so:
-
-* Install the [requirements for Jekyll](https://jekyllrb.com/docs/installation/).
-* Type `bundle install` at the root of your project to install the necessary Ruby dependencies.
-* Type `bundle exec jekyll serve` to launch the test Jekyll web server that will re-compile your work if you edit it.
-* You can then open `http://localhost:4000` in your web browser to see your work-in-progress website.
-
-Please note that, to ensure maximum compatibility with Github Pages, the `Gemfile` of this project references the `github-pages` gem, not Jekyll directly. This implies some differences in behavior compared to the official documentation of Jekyll.
-
-## Known issues
-
-* Bootstrap 4 should normally be post-processed using [Autoprefixer](https://github.com/postcss/autoprefixer). Even if it is possible to use autoprefixer with Jekyll, it is not possible with a classic Github Pages installation without adding some kind of pre-processing before publication. Since this project mostly aims compatibility with Github Pages I prefer to keep it that way. The consequences of this choice is that some Bootstrap features could not work as expected on older browsers.
-
-## How to contribute
-
-Like this project ? [Consider adding a star on Github](https://github.com/nicolas-van/bootstrap-4-github-pages).
-
-[You can also see the contribution guide](https://github.com/nicolas-van/bootstrap-4-github-pages/blob/master/CONTRIBUTING.md).
-
-## Websites using Bootstrap 4 Github Pages
-
-* [My personal blog](https://nicolas-van.github.io/)
-* [the wavelet's profile](https://thewavelet.github.io/)
-* [William Moore's website](https://will2bill.com/)
-* [roseblood.github.io](https://roseleblood.github.io/)
-* [borislouis.github.io](https://borislouis.github.io/)
-* [dariusnwadike.github.io](https://dariusnwadike.github.io/)
-* [libcoap.net](https://libcoap.net/)
-
-## Other Github Pages related projects
-
-I'm a fan of Github Pages for the possibilities it offers to anyone to publish a website for free. I have multiple projects that could be of interest if that's your case too:
-
-* [Easy Markdown to Github Pages](https://nicolas-van.github.io/easy-markdown-to-github-pages/)
-* [Parcel Github Pages Boilerplate](https://github.com/nicolas-van/parcel-github-pages-boilerplate)
-
+       
+        <!--================Home Banner Area =================-->
+        <section class="home_banner_area">
+            <div class="banner_inner">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="home_left_img">
+								<img src="img/banner/home-left-1.png" alt="">
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="banner_content">
+								<h5>This is me</h5>
+								<h2>Travor James</h2>
+								<p>You will begin to realise why this exercise is called the Dickens Pattern (with reference to the ghost showing Scrooge some different futures)</p>
+								<a class="banner_btn" href="#">Discover Now</a>
+							</div>
+						</div>
+					</div>
+				</div>
+            </div>
+        </section>
+        <!--================End Home Banner Area =================-->
+        
+        <!--================Welcome Area =================-->
+        <section class="welcome_area p_120">
+        	<div class="container">
+        		<div class="row welcome_inner">
+        			<div class="col-lg-6">
+        				<div class="welcome_text">
+        					<h4>About Myself</h4>
+        					<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that, as women, our behavior on the job is beyond reproach. inappropriate behavior is often laughed.</p>
+        					<div class="row">
+        						<div class="col-md-4">
+        							<div class="wel_item">
+        								<i class="lnr lnr-database"></i>
+        								<h4>$2.5M</h4>
+        								<p>Total Donation</p>
+        							</div>
+        						</div>
+        						<div class="col-md-4">
+        							<div class="wel_item">
+        								<i class="lnr lnr-book"></i>
+        								<h4>1465</h4>
+        								<p>Total Projects</p>
+        							</div>
+        						</div>
+        						<div class="col-md-4">
+        							<div class="wel_item">
+        								<i class="lnr lnr-users"></i>
+        								<h4>3965</h4>
+        								<p>Total Volunteers</p>
+        							</div>
+        						</div>
+        					</div>
+        				</div>
+        			</div>
+        			<div class="col-lg-6">
+        				<div class="tools_expert">
+        					<h3>Tools Expertness</h3>
+        					<div class="skill_main">
+								<div class="skill_item">
+									<h4>After Effects <span class="counter">85</span>%</h4>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+								</div>
+								<div class="skill_item">
+									<h4>Photoshop <span class="counter">90</span>%</h4>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+								</div>
+								<div class="skill_item">
+									<h4>Illustrator <span class="counter">70</span>%</h4>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+								</div>
+								<div class="skill_item">
+									<h4>Sublime <span class="counter">95</span>%</h4>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+								</div>
+								<div class="skill_item">
+									<h4>Sketch <span class="counter">75</span>%</h4>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+								</div>
+							</div>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        </section>
+        <!--================End Welcome Area =================-->
+        
+        <!--================Feature Area =================-->
+        <section class="feature_area p_120">
+        	<div class="container">
+        		<div class="main_title">
+        			<h2>offerings to my clients</h2>
+        			<p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $.17 each.</p>
+        		</div>
+        		<div class="feature_inner row">
+        			<div class="col-lg-4 col-md-6">
+        				<div class="feature_item">
+        					<i class="flaticon-city"></i>
+        					<h4>Architecture</h4>
+        					<p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $17 each.</p>
+        				</div>
+        			</div>
+        			<div class="col-lg-4 col-md-6">
+        				<div class="feature_item">
+        					<i class="flaticon-skyline"></i>
+        					<h4>Interior Design</h4>
+        					<p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $17 each.</p>
+        				</div>
+        			</div>
+        			<div class="col-lg-4 col-md-6">
+        				<div class="feature_item">
+        					<i class="flaticon-sketch"></i>
+        					<h4>Concept Design</h4>
+        					<p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $17 each.</p>
+        				</div>
+        			</div>
+        			<div class="col-lg-4 col-md-6">
+        				<div class="feature_item">
+        					<i class="flaticon-city"></i>
+        					<h4>Architecture</h4>
+        					<p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $17 each.</p>
+        				</div>
+        			</div>
+        			<div class="col-lg-4 col-md-6">
+        				<div class="feature_item">
+        					<i class="flaticon-skyline"></i>
+        					<h4>Interior Design</h4>
+        					<p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $17 each.</p>
+        				</div>
+        			</div>
+        			<div class="col-lg-4 col-md-6">
+        				<div class="feature_item">
+        					<i class="flaticon-sketch"></i>
+        					<h4>Concept Design</h4>
+        					<p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $17 each.</p>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        </section>
+        <!--================End Feature Area =================-->
+        
+        <!--================Projects Area =================-->
+        <section class="projects_area p_120">
+        	<div class="container">
+        		<div class="main_title">
+					<h2>Our Recent Completed Projects</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+				</div>
+        		<div class="projects_fillter">
+					<ul class="filter list">
+						<li class="active" data-filter="*"><a href="#">All Categories</a></li>
+						<li data-filter=".brand"><a href="#">Branding</a></li>
+						<li data-filter=".work"><a href="#">Creative Work </a></li>
+						<li data-filter=".web"><a href="#">Web Design</a></li>
+					</ul>
+				</div>
+				<div class="projects_inner row">
+					<div class="col-lg-4 col-sm-6 brand web">
+						<div class="projects_item">
+							<img class="img-fluid" src="img/projects/projects-1.jpg" alt="">
+							<div class="projects_text">
+								<a href="portfolio-details.html"><h4>3D Helmet Design</h4></a>
+								<p>Client Project</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6 brand work">
+						<div class="projects_item">
+							<img class="img-fluid" src="img/projects/projects-2.jpg" alt="">
+							<div class="projects_text">
+								<a href="portfolio-details.html"><h4>3D Helmet Design</h4></a>
+								<p>Client Project</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6 work">
+						<div class="projects_item">
+							<img class="img-fluid" src="img/projects/projects-3.jpg" alt="">
+							<div class="projects_text">
+								<a href="portfolio-details.html"><h4>3D Helmet Design</h4></a>
+								<p>Client Project</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6 brand web">
+						<div class="projects_item">
+							<img class="img-fluid" src="img/projects/projects-4.jpg" alt="">
+							<div class="projects_text">
+								<a href="portfolio-details.html"><h4>3D Helmet Design</h4></a>
+								<p>Client Project</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6 brand work">
+						<div class="projects_item">
+							<img class="img-fluid" src="img/projects/projects-5.jpg" alt="">
+							<div class="projects_text">
+								<a href="portfolio-details.html"><h4>3D Helmet Design</h4></a>
+								<p>Client Project</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6 brand work web">
+						<div class="projects_item">
+							<img class="img-fluid" src="img/projects/projects-6.jpg" alt="">
+							<div class="projects_text">
+								<a href="portfolio-details.html"><h4>3D Helmet Design</h4></a>
+								<p>Client Project</p>
+							</div>
+						</div>
+					</div>
+				</div>
+        	</div>
+        </section>
+        <!--================End Projects Area =================-->
+        
+        <!--================Testimonials Area =================-->
+        <section class="testimonials_area p_120">
+        	<div class="container">
+        		<div class="main_title">
+        			<h2>Testimonials</h2>
+        			<p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $.17 each.</p>
+        		</div>
+        		<div class="testi_inner">
+					<div class="testi_slider owl-carousel">
+						<div class="item">
+							<div class="testi_item">
+								<p>As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth. If you think about it, you travel across her face</p>
+								<h4>Fanny Spencer</h4>
+								<a href="#"><i class="fa fa-star"></i></a>
+								<a href="#"><i class="fa fa-star"></i></a>
+								<a href="#"><i class="fa fa-star"></i></a>
+								<a href="#"><i class="fa fa-star"></i></a>
+								<a href="#"><i class="fa fa-star-half-o"></i></a>
+							</div>
+						</div>
+						<div class="item">
+							<div class="testi_item">
+								<p>As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth. If you think about it, you travel across her face</p>
+								<h4>Fanny Spencer</h4>
+								<a href="#"><i class="fa fa-star"></i></a>
+								<a href="#"><i class="fa fa-star"></i></a>
+								<a href="#"><i class="fa fa-star"></i></a>
+								<a href="#"><i class="fa fa-star"></i></a>
+								<a href="#"><i class="fa fa-star-half-o"></i></a>
+							</div>
+						</div>
+						<div class="item">
+							<div class="testi_item">
+								<p>As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth. If you think about it, you travel across her face</p>
+								<h4>Fanny Spencer</h4>
+								<a href="#"><i class="fa fa-star"></i></a>
+								<a href="#"><i class="fa fa-star"></i></a>
+								<a href="#"><i class="fa fa-star"></i></a>
+								<a href="#"><i class="fa fa-star"></i></a>
+								<a href="#"><i class="fa fa-star-half-o"></i></a>
+							</div>
+						</div>
+					</div>
+        		</div>
+        	</div>
+        </section>
+        <!--================End Testimonials Area =================-->
+        
+        <!--================Latest Blog Area =================-->
+        <section class="latest_blog_area p_120">
+        	<div class="container">
+        		<div class="main_title">
+        			<h2>Latest Posts from Blog</h2>
+        			<p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $.17 each.</p>
+        		</div>
+        		<div class="row latest_blog_inner">
+        			<div class="col-lg-4">
+        				<div class="l_blog_item">
+        					<div class="l_blog_img">
+        						<img class="img-fluid" src="img/blog/home-blog/home-blog-1.jpg" alt="">
+        					</div>
+        					<div class="l_blog_text">
+        						<div class="date">
+        							<a href="#">25 October, 2017  |  By Mark Wiens</a>
+        						</div>
+        						<a href="#"><h4>Addiction When Gambling Becomes A Problem</h4></a>
+        						<p>Computers have become ubiquitous in almost every facet of our lives. At work, desk jockeys spend hours in front of their desktops, while delivery people scan bar codes with handhelds and workers in the field stay</p>
+        					</div>
+        				</div>
+        			</div>
+        			<div class="col-lg-4">
+        				<div class="l_blog_item">
+        					<div class="l_blog_img">
+        						<img class="img-fluid" src="img/blog/home-blog/home-blog-2.jpg" alt="">
+        					</div>
+        					<div class="l_blog_text">
+        						<div class="date">
+        							<a href="#">25 October, 2017  |  By Mark Wiens</a>
+        						</div>
+        						<a href="#"><h4>Make Myspace Your Best Designed Space</h4></a>
+        						<p>Computers have become ubiquitous in almost every facet of our lives. At work, desk jockeys spend hours in front of their desktops, while delivery people scan bar codes with handhelds and workers in the field stay</p>
+        					</div>
+        				</div>
+        			</div>
+        			<div class="col-lg-4">
+        				<div class="l_blog_item">
+        					<div class="l_blog_img">
+        						<img class="img-fluid" src="img/blog/home-blog/home-blog-3.jpg" alt="">
+        					</div>
+        					<div class="l_blog_text">
+        						<div class="date">
+        							<a href="#">25 October, 2017  |  By Mark Wiens</a>
+        						</div>
+        						<a href="#"><h4>Video Games Playing With Imagination</h4></a>
+        						<p>Computers have become ubiquitous in almost every facet of our lives. At work, desk jockeys spend hours in front of their desktops, while delivery people scan bar codes with handhelds and workers in the field stay</p>
+        					</div>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        </section>
+        <!--================End Latest Blog Area =================-->
