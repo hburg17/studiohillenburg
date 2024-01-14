@@ -133,22 +133,21 @@
 .intro-wrapper.animate {
   animation: 0.5s ease-in 0s 1 normal forwards fade-in;
 }
+.frame-child1,
+.frame-child7,
+.frame-inner,
 .frame-item {
   position: relative;
   width: 170px;
   height: 170px;
-  object-fit: cover;
 }
 .frame-child1,
+.frame-child7,
 .frame-inner {
   object-fit: contain;
 }
-.frame-child1,
-.frame-child3,
-.frame-inner {
-  position: relative;
-  width: 170px;
-  height: 170px;
+.frame-child7 {
+  object-fit: cover;
 }
 .frame-parent,
 .test-3 {
@@ -236,7 +235,7 @@
     height: 170px;
   }
   .frame-child1,
-  .frame-child3 {
+  .frame-child7 {
     min-width: 150px;
     min-height: 150px;
   }
