@@ -1,1 +1,125 @@
-<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="initial-scale=1, width=device-width"><title>Studio Hillenburg</title><meta property="og:image" content="/public/thumbnail.png"><link rel="icon" href="favicon.462ebca0.ico"><meta name="description" content="Welcome!"><link rel="stylesheet" href="Frame14619.138524f7.css"><link rel="stylesheet" href="index.c6fc55ac.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"></head><body> <div class="div"> <div class="text"> <b class="design-create-inspire-container"> <p class="design">Design.</p> <p class="create">Create.</p> <p class="inspire">Inspire.</p> </b> <div class="welcome">Welcome</div> <div class="button" id="buttonContainer"> <div class="my-projects">My Projects</div> </div> </div> <div class="image-gallery"> <div class="frame-parent"> <img class="frame-child" alt src="frame-14195@2x.77a47d78.png"> <img class="frame-item" alt src="frame-14196@2x.2b3b65e9.png"> <img class="frame-inner" alt src="frame-14197@2x.2b65b31d.png"> <img class="frame-icon" alt src="frame-14198@2x.a8b00866.png"> </div> <div class="frame-parent"> <img class="frame-child" alt src="frame-141951@2x.472e2949.png"> <img class="frame-item" alt src="frame-141961@2x.c88eb37d.png"> <img class="frame-inner" alt src="frame-141971@2x.6af8e65d.png"> <img class="frame-icon" alt src="frame-14199@2x.0c226287.png"> </div> <div class="frame-parent"> <img class="frame-child" alt src="frame-141952@2x.c185b84f.png"> <img class="frame-item" alt src="frame-141972@2x.3ce62055.png"> <img class="frame-inner" alt src="frame-141981@2x.1516c254.png"> <img class="frame-icon" alt src="frame-141982@2x.e3ea1419.png"> </div> <div class="frame-parent"> <img class="frame-child" alt src="frame-141953@2x.6f120ed3.png"> <img class="frame-item" alt src="frame-141962@2x.ce88c23f.png"> <img class="frame-inner" alt src="frame-141973@2x.42926230.png"> <img class="frame-icon" alt src="frame-141983@2x.354f0f6a.png"> </div> </div> <div class="div1"> <img class="icon-twitter" alt src="-icon-twitter.d6d7c286.svg" id="iconTwitter"> </div> </div> <script>var t=document.getElementById("buttonContainer");t&&t.addEventListener("click",function(t){window.location.href="./Projects.html"});var e=document.getElementById("iconTwitter");e&&e.addEventListener("click",function(){window.open("https://twitter.com/hburg17")});</script> </body></html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <meta property="og:image" content="public/thumbnail.png" />
+
+    <link rel="icon" href="public/favicon.ico" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="test-2">
+      <div class="intro-wrapper" data-animate-on-scroll>
+        <div class="intro">
+          <div class="title">
+            <b class="text">Hi, I’m Evan</b>
+          </div>
+          <div class="body">
+            <div class="text1">
+              I'm a full stack developer (React.js & Node.js) with a focus on
+              creating (and occasionally designing) exceptional digital
+              experiences that are fast, accessible, visually appealing, and
+              responsive. Even though I have been creating web applications for
+              over 7 years, I still love it as if it was something new.
+            </div>
+          </div>
+          <div class="location">
+            <img class="vector-icon" alt="" src="./public/vector.svg" />
+
+            <div class="text2">Earth, Milky Way</div>
+          </div>
+          <div class="location">
+            <div class="icon">
+              <div class="icon-dot-emerald-500"></div>
+            </div>
+            <div class="text2">Available for new projects</div>
+          </div>
+          <div class="links">
+            <div class="vector-parent">
+              <img class="vector-icon1" alt="" src="./public/vector1.svg" />
+
+              <img
+                class="icon-rss-square"
+                alt=""
+                src="./public/-icon-rss-square.svg"
+                id="iconRSSSquare"
+              />
+
+              <img class="vector-icon1" alt="" src="./public/vector2.svg" />
+
+              <img
+                class="frame-icon"
+                alt=""
+                src="./public/frame.svg"
+                id="frameIcon"
+              />
+
+              <img
+                class="frame-child"
+                alt=""
+                src="./public/group-2.svg"
+                id="groupIcon"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="untitled-design-18-1-wrapper" data-animate-on-scroll>
+        <img
+          class="untitled-design-18-1"
+          alt=""
+          src="./public/untitled-design-18-1@2x.png"
+        />
+      </div>
+    </div>
+
+    <script>
+      var iconRSSSquare = document.getElementById("iconRSSSquare");
+      if (iconRSSSquare) {
+        iconRSSSquare.addEventListener("click", function () {
+          window.open("https://wondersofwildlife.org/volunteer/");
+        });
+      }
+      
+      var frameIcon = document.getElementById("frameIcon");
+      if (frameIcon) {
+        frameIcon.addEventListener("click", function () {
+          window.open("https://medium.com/@evanhillenburg72");
+        });
+      }
+      
+      var groupIcon = document.getElementById("groupIcon");
+      if (groupIcon) {
+        groupIcon.addEventListener("click", function () {
+          window.open("https://www.artstation.com/hburg17");
+        });
+      }
+      var scrollAnimElements = document.querySelectorAll("[data-animate-on-scroll]");
+      var observer = new IntersectionObserver(
+        (entries) => {
+          for (const entry of entries) {
+            if (entry.isIntersecting || entry.intersectionRatio > 0) {
+              const targetElement = entry.target;
+              targetElement.classList.add("animate");
+              observer.unobserve(targetElement);
+            }
+          }
+        },
+        {
+          threshold: 0.15,
+        }
+      );
+      
+      for (let i = 0; i < scrollAnimElements.length; i++) {
+        observer.observe(scrollAnimElements[i]);
+      }
+      </script>
+  </body>
+</html>
