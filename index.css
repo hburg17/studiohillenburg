@@ -92,81 +92,76 @@
   flex-shrink: 0;
 }
 .frame-child {
+  border-radius: 2px;
   width: 24px;
 }
-.vector-parent {
-  width: 172px;
-  flex-direction: row;
-  justify-content: flex-start;
-  gap: 12px;
-}
-.intro,
-.intro-wrapper,
 .links,
 .vector-parent {
   display: flex;
   align-items: flex-start;
+  justify-content: flex-start;
+}
+.vector-parent {
+  width: 172px;
+  flex-direction: row;
+  gap: 12px;
 }
 .links {
   align-self: stretch;
   overflow: hidden;
   flex-direction: column;
-  justify-content: flex-start;
 }
 .intro,
 .intro-wrapper {
   flex: 1;
+  display: flex;
+  justify-content: center;
 }
 .intro {
   flex-direction: column;
-  justify-content: center;
+  align-items: flex-start;
   gap: 40px;
 }
 .intro-wrapper {
   background-color: transparent;
   flex-direction: row;
-  justify-content: space-between;
+  align-items: center;
   opacity: 0;
   min-width: 400px;
   max-width: 500px;
 }
-.intro-wrapper.animate,
-.untitled-design-18-1-wrapper.animate {
+.intro-wrapper.animate {
   animation: 0.5s ease-in 0s 1 normal forwards fade-in;
 }
-.untitled-design-18-1 {
+.frame-child1,
+.frame-item {
+  object-fit: contain;
+}
+.frame-child1,
+.frame-child3,
+.frame-child7,
+.frame-item {
   position: relative;
-  width: 500px;
-  height: 500px;
+  width: 170px;
+  height: 170px;
+}
+.frame-child7 {
   object-fit: cover;
-  min-width: 200px;
-  max-width: 500px;
-  min-height: 200px;
-  max-height: 500px;
 }
-.untitled-design-18-1-wrapper {
-  flex: 1;
-  background-color: #b6b6b6;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  opacity: 0;
-  min-width: 400px;
-  max-width: 500px;
-  min-height: 500px;
-  max-height: 500px;
-}
-.test-2 {
-  position: relative;
-  background-color: #fff;
-  width: 100%;
+.frame-parent,
+.test-3 {
+  width: 530px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  gap: 10px;
+}
+.test-3 {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
   padding: 50px;
   box-sizing: border-box;
   gap: 200px;
@@ -176,71 +171,81 @@
   font-family: var(--body2-normal-all);
 }
 @media screen and (max-width: 1200px) {
+  .intro-wrapper,
+  .test-3 {
+    align-items: center;
+    justify-content: center;
+  }
   .intro-wrapper {
     min-width: 400px;
   }
-  .untitled-design-18-1-wrapper {
-    gap: var(--gap-0);
-    min-width: 400px;
-    min-height: 500px;
-  }
-  .test-2 {
+  .test-3 {
     width: auto;
     align-self: unset;
     height: auto;
     flex-direction: row;
     flex-wrap: wrap;
     gap: var(--gap-131xl);
-    align-items: center;
-    justify-content: center;
   }
 }
 @media screen and (max-width: 960px) {
   .intro-wrapper {
     flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
     min-width: 375px;
     max-width: 500px;
   }
-  .untitled-design-18-1 {
-    min-height: 100px;
+  .frame-parent,
+  .intro-wrapper,
+  .test-3 {
+    align-items: flex-start;
+    justify-content: center;
   }
-  .untitled-design-18-1-wrapper {
-    width: 100%;
-    height: 100%;
-    gap: var(--gap-0);
-    align-items: center;
-    justify-content: flex-start;
-    padding-left: 0;
-    padding-right: 0;
-    box-sizing: border-box;
-    min-width: 375px;
-    max-width: 500px;
-    min-height: 200px;
+  .frame-parent {
+    flex: 1;
+    min-width: 350px;
+    max-width: 550px;
   }
-  .test-2 {
+  .test-3 {
     width: auto;
     align-self: unset;
     height: auto;
     flex-direction: row;
     flex-wrap: wrap;
     gap: var(--gap-131xl);
-    align-items: flex-start;
-    justify-content: center;
     padding-left: var(--padding-81xl);
     padding-right: var(--padding-81xl);
     box-sizing: border-box;
   }
 }
 @media screen and (max-width: 420px) {
-  .intro-wrapper,
-  .untitled-design-18-1-wrapper {
+  .intro-wrapper {
+    align-items: flex-start;
+    justify-content: center;
     padding: 0;
     box-sizing: border-box;
     min-width: 200px;
   }
-  .test-2 {
+  .frame-item {
+    min-width: 150px;
+    min-height: 150px;
+  }
+  .frame-child1 {
+    height: 170px;
+  }
+  .frame-child1,
+  .frame-child3,
+  .frame-child7 {
+    min-width: 150px;
+    min-height: 150px;
+  }
+  .frame-parent {
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .test-3 {
     width: auto;
     align-self: unset;
     gap: var(--gap-81xl);
@@ -253,13 +258,10 @@
 @media screen and (max-width: 350px) {
   .intro-wrapper {
     min-width: 200px;
-  }
-  .intro-wrapper,
-  .untitled-design-18-1-wrapper {
     flex: unset;
     align-self: stretch;
   }
-  .test-2 {
+  .test-3 {
     width: auto;
     align-self: unset;
     flex-direction: column;
