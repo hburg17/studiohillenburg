@@ -36,8 +36,8 @@
   justify-content: flex-start;
 }
 .vector-icon {
-  position: relative;
   width: 14px;
+  position: relative;
   height: 18px;
 }
 .text2 {
@@ -72,8 +72,8 @@
   justify-content: center;
 }
 .vector-icon1 {
-  position: relative;
   width: 24px;
+  position: relative;
   height: 24px;
 }
 .icon-rss-square {
@@ -92,8 +92,8 @@
   flex-shrink: 0;
 }
 .frame-child {
-  border-radius: 2px;
   width: 24px;
+  border-radius: 2px;
 }
 .links,
 .vector-parent {
@@ -113,16 +113,17 @@
 }
 .intro,
 .intro-wrapper {
-  flex: 1;
   display: flex;
   justify-content: center;
 }
 .intro {
+  flex: 1;
   flex-direction: column;
   align-items: flex-start;
   gap: 40px;
 }
 .intro-wrapper {
+  width: 500px;
   background-color: transparent;
   flex-direction: row;
   align-items: center;
@@ -134,20 +135,10 @@
   animation: 0.5s ease-in 0s 1 normal forwards fade-in;
 }
 .frame-child1,
-.frame-child7,
-.frame-inner,
 .frame-item {
-  position: relative;
   width: 170px;
+  position: relative;
   height: 170px;
-}
-.frame-child1,
-.frame-child7,
-.frame-inner {
-  object-fit: contain;
-}
-.frame-child7 {
-  object-fit: cover;
 }
 .frame-parent,
 .test-3 {
@@ -160,9 +151,9 @@
   gap: 10px;
 }
 .test-3 {
+  width: 100%;
   position: relative;
   background-color: #fff;
-  width: 100%;
   padding: 50px;
   box-sizing: border-box;
   gap: 200px;
@@ -226,18 +217,13 @@
     box-sizing: border-box;
     min-width: 200px;
   }
-  .frame-inner,
+  .frame-child1,
   .frame-item {
     min-width: 150px;
     min-height: 150px;
   }
   .frame-child1 {
     height: 170px;
-  }
-  .frame-child1,
-  .frame-child7 {
-    min-width: 150px;
-    min-height: 150px;
   }
   .frame-parent {
     flex: 1;
@@ -259,8 +245,6 @@
 @media screen and (max-width: 350px) {
   .intro-wrapper {
     min-width: 200px;
-    flex: unset;
-    align-self: stretch;
   }
   .test-3 {
     width: auto;
