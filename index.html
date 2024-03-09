@@ -241,27 +241,27 @@
             id="drawergroupIcon"
           />
         </div>
-        <nav class="navigation11">
+        <nav class="navigation33">
           <a
-            class="about6"
+            class="about13"
             href="https://studiohillenburg.com/about.html"
             id="drawerabout"
             >About</a
           >
           <a
-            class="about6"
+            class="about13"
             href="https://studiohillenburg.com/articles.html"
             id="drawerarticles"
             >Articles</a
           >
           <a
-            class="about6"
+            class="about13"
             href="https://studiohillenburg.com/projects.html"
             id="drawerprojects"
             >Projects</a
           >
           <a
-            class="about6"
+            class="about13"
             href="https://studiohillenburg.com/contact.html"
             id="drawercontact"
             >Contact</a
@@ -290,7 +290,7 @@
           }
         });
       }
-      
+
       var drawercloseIconContainer = document.getElementById(
         "drawercloseIconContainer"
       );
@@ -312,14 +312,14 @@
           }
         });
       }
-      
+
       var drawerabout = document.getElementById("drawerabout");
       if (drawerabout) {
         drawerabout.addEventListener("click", function () {
           window.location.href = "https://satoshis.quest/maps.html";
         });
       }
-      
+
       var drawerabout = document.getElementById("drawerabout");
       if (drawerabout) {
         drawerabout.addEventListener("click", function (e) {
@@ -339,14 +339,14 @@
           }
         });
       }
-      
+
       var drawerarticles = document.getElementById("drawerarticles");
       if (drawerarticles) {
         drawerarticles.addEventListener("click", function () {
           window.location.href = "https://satoshis.quest/guides.html";
         });
       }
-      
+
       var drawerarticles = document.getElementById("drawerarticles");
       if (drawerarticles) {
         drawerarticles.addEventListener("click", function (e) {
@@ -366,14 +366,14 @@
           }
         });
       }
-      
+
       var drawerprojects = document.getElementById("drawerprojects");
       if (drawerprojects) {
         drawerprojects.addEventListener("click", function () {
           window.location.href = "https://satoshis.quest/forum.html";
         });
       }
-      
+
       var drawerprojects = document.getElementById("drawerprojects");
       if (drawerprojects) {
         drawerprojects.addEventListener("click", function (e) {
@@ -393,14 +393,14 @@
           }
         });
       }
-      
+
       var drawercontact = document.getElementById("drawercontact");
       if (drawercontact) {
         drawercontact.addEventListener("click", function () {
           window.location.href = "https://satoshis.quest/stats.html";
         });
       }
-      
+
       var drawercontact = document.getElementById("drawercontact");
       if (drawercontact) {
         drawercontact.addEventListener("click", function (e) {
@@ -420,7 +420,7 @@
           }
         });
       }
-      
+
       var scrollAnimElements = document.querySelectorAll("[data-animate-on-scroll]");
       var observer = new IntersectionObserver(
         (entries) => {
@@ -436,11 +436,11 @@
           threshold: 0.15,
         }
       );
-      
+
       for (let i = 0; i < scrollAnimElements.length; i++) {
         observer.observe(scrollAnimElements[i]);
       }
-      
+
       var hamburgerMenuV5Container = document.getElementById(
         "hamburgerMenuV5Container"
       );
@@ -457,7 +457,7 @@
             drawerOverlayStyle.justifyContent = "";
           }
           drawerOverlay.setAttribute("closable", "");
-      
+
           var onClick =
             drawerOverlay.onClick ||
             function (e) {
@@ -471,34 +471,34 @@
           drawerOverlay.addEventListener("click", onClick);
         });
       }
-      
+
       var about = document.getElementById("about");
       if (about) {
         about.addEventListener("click", function () {
           window.location.href = "https://satoshis.quest/donate.html";
         });
       }
-      
+
       var articles = document.getElementById("articles");
       if (articles) {
         articles.addEventListener("click", function () {
           window.location.href = "https://satoshis.quest/forum.html";
         });
       }
-      
+
       var projects = document.getElementById("projects");
       if (projects) {
         projects.addEventListener("click", function () {
           window.location.href = "https://satoshis.quest/stats.html";
         });
       }
-      
+
       var contact = document.getElementById("contact");
       if (contact) {
         contact.addEventListener("click", function () {
           window.location.href = "https://satoshis.quest/guides.html";
         });
       }
-      </script>
+    </script>
   </body>
 </html>
