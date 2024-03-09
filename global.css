@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-roboto: Roboto;
+  --font-roboto-slab: "Roboto Slab";
+  --text-lg-regular: Inter;
+  --font-open-sans: "Open Sans";
+
+  /* font sizes */
+  --font-size-base: 16px;
+  --font-size-xl: 20px;
+  --text-lg-regular-size: 18px;
+  --display-xs-semibold-size: 24px;
+  --font-size-17xl: 36px;
+
+  /* Colors */
+  --color-white: #fff;
+  --gray-900: #101828;
+  --color-gray-100: #171616;
+  --color-lightgray: #cacaca;
+  --gray-500: #667085;
+  --color-whitesmoke-100: #f4f4f4;
+
+  /* Gaps */
+  --gap-0: 0px;
+  --gap-7xs: 6px;
+  --gap-base: 16px;
+
+  /* Paddings */
+  --padding-13xl: 32px;
+  --padding-45xl: 64px;
+  --padding-base: 16px;
+
+  /* Border radiuses */
+  --br-31xl: 50px;
+  --br-5xs: 8px;
+}

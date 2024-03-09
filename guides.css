@@ -1,0 +1,339 @@
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+    transform-origin: center center;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    transform: scale(0.91);
+    animation-timing-function: ease-in;
+  }
+  17% {
+    transform: scale(0.98);
+    animation-timing-function: ease-out;
+  }
+  33% {
+    transform: scale(0.87);
+    animation-timing-function: ease-in;
+  }
+  45% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+  }
+}
+.group-icon {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  object-fit: cover;
+}
+.studio-hillenburg3 {
+  position: relative;
+  line-height: 15px;
+}
+.group-parent1 {
+  text-decoration: none;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 16px;
+  color: inherit;
+}
+.hamburger-menu-v5-child6,
+.hamburger-menu-v5-child7 {
+  width: 31.8px;
+  position: relative;
+  border-radius: var(--br-31xl);
+  height: 4.2px;
+}
+.hamburger-menu-v5-child7 {
+  height: 3.6px;
+}
+.hamburger-menu-v53 {
+  height: 24px;
+  display: none;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.hamburger-menu-v53:active {
+  cursor: auto;
+  animation: 1s ease-out 0s 1 normal none pulsate;
+  opacity: 1;
+}
+.about3 {
+  text-decoration: none;
+  position: relative;
+  line-height: 15px;
+  color: inherit;
+  cursor: pointer;
+}
+.desktop-menu3,
+.navigation7,
+.top-menu3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.desktop-menu3 {
+  justify-content: flex-end;
+  gap: 0 20px;
+}
+.navigation7,
+.top-menu3 {
+  margin: 0;
+  text-align: right;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+}
+.navigation7 {
+  height: 40px;
+  width: 317px;
+  justify-content: flex-end;
+  gap: 0 20px;
+  font-family: var(--font-open-sans);
+}
+.top-menu3 {
+  align-self: stretch;
+  background-color: var(--color-gray-100);
+  justify-content: space-between;
+  padding: var(--padding-base) var(--padding-13xl);
+  font-family: var(--font-roboto-slab);
+}
+.heading2 {
+  align-self: stretch;
+  position: relative;
+  line-height: 32px;
+  font-weight: 600;
+}
+.dont-worry-you {
+  margin-block-start: 0;
+  margin-block-end: 18px;
+}
+.unfortunately-figma-only {
+  margin: 0;
+}
+.paragraph2 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--text-lg-regular-size);
+  line-height: 28px;
+  color: var(--gray-500);
+}
+.body-padding2,
+.body2,
+.heading-and-paragraph2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.heading-and-paragraph2 {
+  align-items: flex-start;
+  gap: 16px 0;
+}
+.body-padding2,
+.body2 {
+  align-items: center;
+}
+.body-padding2 {
+  gap: 64px;
+}
+.body2 {
+  background-color: var(--color-white);
+  overflow: hidden;
+  padding: var(--padding-45xl) 256px;
+}
+.satoshis-quest3 {
+  position: relative;
+  line-height: 15px;
+  font-weight: 600;
+}
+.playsatoshisquest3 {
+  height: 15px;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 15px;
+  font-family: var(--font-roboto);
+  color: var(--color-lightgray);
+  display: inline-block;
+}
+.satoshis-quest-parent1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 6px 0;
+}
+.bottom-menu-inner1 {
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.icon-discord4,
+.icon-instagram4 {
+  width: 21.7px;
+  position: relative;
+  height: 24px;
+}
+.icon-instagram4 {
+  width: 24px;
+}
+.icon-facebook4,
+.icon-twitter4 {
+  width: 24.1px;
+  position: relative;
+  height: 24px;
+}
+.icon-twitter4 {
+  width: 29.5px;
+}
+.navigation8 {
+  margin: 0;
+  height: 40px;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 0 32px;
+}
+.articles3,
+.bottom-menu3,
+.navigation8 {
+  display: flex;
+  align-items: center;
+}
+.bottom-menu3 {
+  margin: 0;
+  align-self: stretch;
+  background-color: var(--color-gray-100);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-13xl);
+  text-align: right;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-roboto-slab);
+}
+.articles3 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--display-xs-semibold-size);
+  color: var(--gray-900);
+  font-family: var(--text-lg-regular);
+}
+@media screen and (max-width: 1200px) {
+  .navigation7 {
+    display: flex;
+  }
+  .bottom-menu3,
+  .top-menu3 {
+    padding-left: var(--padding-45xl);
+    padding-right: var(--padding-45xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 960px) {
+  .hamburger-menu-v53,
+  .studio-hillenburg3 {
+    display: flex;
+  }
+  .desktop-menu3,
+  .navigation7 {
+    display: none;
+  }
+  .body2,
+  .top-menu3 {
+    padding-left: var(--padding-13xl);
+    padding-right: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+  .body2 {
+    padding-top: var(--padding-13xl);
+  }
+  .playsatoshisquest3,
+  .satoshis-quest3 {
+    display: flex;
+  }
+  .bottom-menu3 {
+    padding-left: var(--padding-13xl);
+    padding-right: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 420px) {
+  .desktop-menu3,
+  .studio-hillenburg3 {
+    display: none;
+  }
+  .hamburger-menu-v53:active {
+    animation: 1s ease-in 0s 1 normal none pulsate;
+    opacity: 1;
+  }
+  @keyframes pulsate {
+    0% {
+      transform: scale(1);
+      transform-origin: center center;
+      animation-timing-function: ease-out;
+    }
+    10% {
+      transform: scale(0.91);
+      animation-timing-function: ease-in;
+    }
+    17% {
+      transform: scale(0.98);
+      animation-timing-function: ease-out;
+    }
+    33% {
+      transform: scale(0.87);
+      animation-timing-function: ease-in;
+    }
+    45% {
+      transform: scale(1);
+      animation-timing-function: ease-out;
+    }
+  }
+  .body2,
+  .top-menu3 {
+    padding-left: var(--padding-base);
+    padding-right: var(--padding-base);
+    box-sizing: border-box;
+  }
+  .body2 {
+    padding-top: var(--padding-13xl);
+  }
+  .playsatoshisquest3,
+  .satoshis-quest3 {
+    display: flex;
+  }
+  .bottom-menu-inner1 {
+    display: none;
+  }
+  .navigation8 {
+    display: flex;
+  }
+  .bottom-menu3 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-left: var(--padding-base);
+    padding-right: var(--padding-base);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 350px) {
+  .body2 {
+    padding-left: var(--padding-base);
+    padding-top: var(--padding-13xl);
+    padding-right: var(--padding-base);
+    box-sizing: border-box;
+  }
+}
