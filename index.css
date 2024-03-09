@@ -490,7 +490,7 @@
   justify-content: center;
   cursor: pointer;
 }
-.about1 {
+.about6 {
   text-decoration: none;
   position: relative;
   line-height: 15px;
@@ -498,13 +498,13 @@
   cursor: pointer;
 }
 .mobile-menu,
-.navigation2 {
+.navigation11 {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   box-sizing: border-box;
 }
-.navigation2 {
+.navigation11 {
   margin: 0;
   width: 144px;
   align-items: flex-start;

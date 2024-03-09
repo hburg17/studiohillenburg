@@ -30,7 +30,6 @@ body {
   --color-gray-100: #171616;
   --color-lightgray: #cacaca;
   --gray-500: #667085;
-  --color-whitesmoke-100: #f4f4f4;
 
   /* Gaps */
   --gap-0: 0px;
@@ -45,6 +44,6 @@ body {
 
   /* Border radiuses */
   --br-31xl: 50px;
-  --br-base: 16px;
   --br-5xs: 8px;
+  --br-base: 16px;
 }
