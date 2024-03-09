@@ -63,7 +63,7 @@
   animation: 1s ease-out 0s 1 normal none pulsate;
   opacity: 1;
 }
-.about1 {
+.about2 {
   text-decoration: none;
   position: relative;
   line-height: 15px;
@@ -71,7 +71,7 @@
   cursor: pointer;
 }
 .desktop-menu1,
-.navigation3,
+.navigation2,
 .top-menu1 {
   display: flex;
   flex-direction: row;
@@ -81,14 +81,14 @@
   justify-content: flex-end;
   gap: 0 20px;
 }
-.navigation3,
+.navigation2,
 .top-menu1 {
   margin: 0;
   text-align: right;
   font-size: var(--font-size-xl);
   color: var(--color-white);
 }
-.navigation3 {
+.navigation2 {
   height: 40px;
   width: 317px;
   justify-content: flex-end;
@@ -102,14 +102,14 @@
   padding: var(--padding-base) var(--padding-13xl);
   font-family: var(--font-roboto-slab);
 }
-.body-child {
+.body-item {
   border: 0;
   align-self: stretch;
   border-radius: var(--br-5xs);
   background-color: var(--color-whitesmoke-100);
   height: 305px;
 }
-.body {
+.body1 {
   align-self: stretch;
   background-color: var(--color-white);
   overflow: hidden;
@@ -147,25 +147,25 @@
   align-items: center;
   justify-content: flex-start;
 }
-.icon-discord2,
-.icon-instagram2 {
+.icon-discord1,
+.icon-instagram1 {
   width: 21.7px;
   position: relative;
   height: 24px;
 }
-.icon-instagram2 {
+.icon-instagram1 {
   width: 24px;
 }
-.icon-facebook2,
-.icon-twitter2 {
+.icon-facebook1,
+.icon-twitter1 {
   width: 24.1px;
   position: relative;
   height: 24px;
 }
-.icon-twitter2 {
+.icon-twitter1 {
   width: 29.5px;
 }
-.navigation4 {
+.navigation3 {
   margin: 0;
   height: 40px;
   flex-direction: row;
@@ -173,7 +173,7 @@
   gap: 0 32px;
 }
 .bottom-menu1,
-.navigation4,
+.navigation3,
 .projects1 {
   display: flex;
   align-items: center;
@@ -199,7 +199,7 @@
   justify-content: flex-start;
 }
 @media screen and (max-width: 1200px) {
-  .navigation3 {
+  .navigation2 {
     display: flex;
   }
   .bottom-menu1,
@@ -215,16 +215,16 @@
     display: flex;
   }
   .desktop-menu1,
-  .navigation3 {
+  .navigation2 {
     display: none;
   }
-  .body,
+  .body1,
   .top-menu1 {
     padding-left: var(--padding-13xl);
     padding-right: var(--padding-13xl);
     box-sizing: border-box;
   }
-  .body {
+  .body1 {
     padding-top: var(--padding-13xl);
   }
   .playsatoshisquest1,
@@ -269,13 +269,13 @@
       animation-timing-function: ease-out;
     }
   }
-  .body,
+  .body1,
   .top-menu1 {
     padding-left: var(--padding-base);
     padding-right: var(--padding-base);
     box-sizing: border-box;
   }
-  .body {
+  .body1 {
     padding-top: var(--padding-13xl);
   }
   .playsatoshisquest1,
@@ -285,7 +285,7 @@
   .bottom-menu-child {
     display: none;
   }
-  .navigation4 {
+  .navigation3 {
     display: flex;
   }
   .bottom-menu1 {
@@ -299,7 +299,7 @@
   }
 }
 @media screen and (max-width: 350px) {
-  .body {
+  .body1 {
     padding-left: var(--padding-base);
     padding-top: var(--padding-13xl);
     padding-right: var(--padding-base);

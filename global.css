@@ -7,8 +7,8 @@ body {
   /* fonts */
   --font-roboto: Roboto;
   --font-roboto-slab: "Roboto Slab";
-  --text-lg-regular: Inter;
   --font-open-sans: "Open Sans";
+  --display-xs-semibold: Inter;
 
   /* font sizes */
   --font-size-base: 16px;
@@ -22,8 +22,8 @@ body {
   --gray-900: #101828;
   --color-gray-100: #171616;
   --color-lightgray: #cacaca;
-  --gray-500: #667085;
   --color-whitesmoke-100: #f4f4f4;
+  --gray-500: #667085;
 
   /* Gaps */
   --gap-0: 0px;
@@ -36,6 +36,6 @@ body {
   --padding-base: 16px;
 
   /* Border radiuses */
-  --br-31xl: 50px;
   --br-5xs: 8px;
+  --br-31xl: 50px;
 }
