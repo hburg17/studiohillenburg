@@ -3,27 +3,34 @@ body {
   line-height: normal;
 }
 
+.popup-overlay {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  inset: 0;
+}
+
 :root {
   /* fonts */
   --font-roboto: Roboto;
   --font-roboto-slab: "Roboto Slab";
+  --text-lg-regular: Inter;
   --font-open-sans: "Open Sans";
-  --display-xs-semibold: Inter;
 
   /* font sizes */
   --font-size-base: 16px;
   --font-size-xl: 20px;
   --text-lg-regular-size: 18px;
-  --display-xs-semibold-size: 24px;
   --font-size-17xl: 36px;
+  --display-xs-semibold-size: 24px;
 
   /* Colors */
   --color-white: #fff;
   --gray-900: #101828;
   --color-gray-100: #171616;
   --color-lightgray: #cacaca;
-  --color-whitesmoke-100: #f4f4f4;
   --gray-500: #667085;
+  --color-whitesmoke-100: #f4f4f4;
 
   /* Gaps */
   --gap-0: 0px;
@@ -34,8 +41,10 @@ body {
   --padding-13xl: 32px;
   --padding-45xl: 64px;
   --padding-base: 16px;
+  --padding-29xl: 48px;
 
   /* Border radiuses */
-  --br-5xs: 8px;
   --br-31xl: 50px;
+  --br-base: 16px;
+  --br-5xs: 8px;
 }
