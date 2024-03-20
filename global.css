@@ -33,9 +33,11 @@ body {
   --color-deepskyblue: #57baf1;
 
   /* Gaps */
-  --gap-0: 0px;
+  --gap-13xl: 32px;
   --gap-7xs: 6px;
   --gap-base: 16px;
+  --gap-xl: 20px;
+  --gap-5xl: 24px;
 
   /* Paddings */
   --padding-13xl: 32px;
@@ -45,6 +47,6 @@ body {
 
   /* Border radiuses */
   --br-31xl: 50px;
-  --br-5xs: 8px;
   --br-base: 16px;
+  --br-5xs: 8px;
 }

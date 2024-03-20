@@ -48,7 +48,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  gap: 0 16px;
+  gap: var(--gap-base);
   color: inherit;
 }
 .hamburger-menu-v5-child,
@@ -89,7 +89,7 @@
 }
 .desktop-menu {
   justify-content: flex-end;
-  gap: 0 20px;
+  gap: var(--gap-xl);
 }
 .navigation,
 .top-menu {
@@ -102,7 +102,7 @@
   height: 40px;
   width: 317px;
   justify-content: flex-end;
-  gap: 0 20px;
+  gap: var(--gap-xl);
   font-family: var(--font-open-sans);
 }
 .top-menu {
@@ -189,7 +189,7 @@
   align-self: stretch;
   flex-direction: column;
   align-items: flex-start;
-  gap: 16px 0;
+  gap: var(--gap-base);
 }
 .body-padding2,
 .columns,
@@ -207,7 +207,7 @@
   align-self: stretch;
   flex-direction: row;
   align-items: flex-start;
-  gap: 0 48px;
+  gap: 48px;
 }
 .body-padding1,
 .heading-and-paragraph {
@@ -253,7 +253,7 @@
   align-items: center;
   justify-content: flex-start;
   padding: var(--padding-13xl) var(--padding-45xl) var(--padding-45xl);
-  gap: 32px 0;
+  gap: var(--gap-13xl);
 }
 .body-end-spacer {
   height: 96px;
@@ -278,7 +278,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  gap: 6px 0;
+  gap: var(--gap-7xs);
 }
 .bottom-menu-inner {
   height: 40px;
@@ -313,7 +313,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: flex-end;
-  gap: 0 32px;
+  gap: var(--gap-13xl);
 }
 .bottom-menu,
 .home {
@@ -509,7 +509,7 @@
   width: 144px;
   align-items: flex-start;
   padding: var(--padding-base) 0 0;
-  gap: 24px 0;
+  gap: var(--gap-5xl);
   text-align: right;
   font-size: var(--font-size-xl);
   color: var(--color-white);
@@ -521,7 +521,7 @@
   background-color: rgba(0, 0, 0, 0.85);
   align-items: flex-end;
   padding: var(--padding-base) var(--padding-13xl);
-  gap: 10px 0;
+  gap: 10px;
   opacity: 0;
   height: 100%;
   max-width: 90%;
